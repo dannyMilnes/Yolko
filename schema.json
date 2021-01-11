@@ -1,0 +1,166 @@
+{
+    "eggs": [
+        {
+            "name": "poached",
+            "icon": "poached",
+            "displayName": "poached egg",
+            "style": [
+                {
+                    "name": "soft",
+                    "recipe":{
+                        "time": 180,
+                        "instructions":[]
+                    }
+                },
+                {
+                    "name": "medium",
+                    "recipe":{
+                        "time": 240,
+                        "instructions":[]
+                    }
+                },
+                {
+                    "name":"hard",
+                    "recipe":{
+                        "time": 300,
+                        "instructions":[]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "fried",
+            "icon": "fried",
+            "displayName":"fried egg",
+            "style":[
+                {
+                    "name": "sunnySideUp",
+                    "recipe":{
+                        "time": 240,
+                        "instructions":[]
+                    }
+                },
+                {
+                    "name": "overEasy",
+                    "recipe":{
+                        "time": 300,
+                        "instructions":["https://www.eggs.ca/eggs101/view/7/how-to-fry-the-perfect-egg"]
+                    }
+                },
+                {
+                    "name": "overMedium",
+                    "recipe":{
+                        "time": 360,
+                        "instructions":[]
+                    }
+                },
+                {
+                    "name": "overWell",
+                    "recipe":{
+                        "time": 420,
+                        "instructions":[]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "scrambled",
+            "icon": "scrambled",
+            "displayName":"scrambled egg",
+            "style":[
+                {
+                    "name": "soft",
+                    "recipe":{
+                        "time": 600,
+                        "instructions":[]
+                    }
+                },
+                {
+                    "name": "hard",
+                    "recipe":{
+                        "time": 300,
+                        "instructions":[]
+                    }
+                }
+            ]
+        
+        },
+        {
+            "name": "boiled",
+            "icon": "boiled",
+            "displayName": "boiled egg",
+            "style": [
+                {
+                    "name": "soft",
+                    "recipe":{
+                        "time": 300,
+                        "instructions":[]
+                    }
+                },
+                {
+                    "name": "medium",
+                    "recipe":{
+                        "time": 420,
+                        "instructions":[]
+                    }
+                },
+                {
+                    "name":"hard",
+                    "recipe":{
+                        "time": 600,
+                        "instructions":[]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "omelette",
+            "icon": "omelette",
+            "displayName": "omelette",
+            "style": [
+                {
+                    "name": "??",
+                    "recipe":{
+                        "time": 300,
+                        "instructions":[]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "baked",
+            "icon": "oven",
+            "displayName": "baked egg",
+            "style": [
+                {
+                    "name": "soft",
+                    "recipe":{
+                        "time": 840,
+                        "instructions":[]
+                    }
+                },
+                {
+                    "name": "medium",
+                    "recipe":{
+                        "time": 900,
+                        "instructions":[]
+                    }
+                },
+                {
+                    "name":"hard",
+                    "recipe":{
+                        "time": 1080,
+                        "instructions":[]
+                    }
+                }
+            ]
+        }
+
+    ],
+    "jokes": [
+        {
+            "setup": "What's your favourite day of the week?",
+            "punchline": "Fry-day!"
+        }
+    ]
+}
