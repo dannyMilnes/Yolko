@@ -1,0 +1,15 @@
+.mobileArea{
+    margin: auto;
+    margin-top: 20px;
+    height: 600px;
+    width: 350px;
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.buttonArea{
+    display: flex;
+    align-items: center;
+}

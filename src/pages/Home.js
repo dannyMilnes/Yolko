@@ -6,10 +6,20 @@ import {
     Link
 } from "react-router-dom";
 
+import './Home.css'
+
+function begin() {
+
+}
+
 function Home() {
     return (
         <>
-        test
+        <section className="mobileArea"> 
+            <div className="buttonArea">
+                <button onClick= {begin()}> Begin </button>
+            </div>
+        </section>
         </>
     );
 }
