@@ -161,6 +161,14 @@
         {
             "setup": "What's your favourite day of the week?",
             "punchline": "Fry-day!"
+        },
+        {
+            "setup": "What do you call a scared egg?",
+            "punchline":"Terri-fried!"
+        },
+        {
+            "setup":"Why was the egg late for school?",
+            "punchline":"It didn't study for it's eggsam!"
         }
     ]
 }
