@@ -1,0 +1,38 @@
+.page-container {
+    position: relative;
+}
+
+.joke-container {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    margin: -250px;
+    max-width: 300px;
+    background: transparent;
+    transform: rotate(-13deg);
+    font-size: 1.3rem;
+    p,b {
+        background: none;
+        font-family: 'Courier Prime', sans-serif;
+        animation: pop 0.8s infinite;
+    }
+    @keyframes pop {
+    from {
+        transform:scale(0.97)
+    }
+    50% {
+        transform:scale(1)
+    }
+    to {
+        transform:scale(0.97)
+    }
+}
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}

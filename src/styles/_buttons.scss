@@ -1,0 +1,16 @@
+.btn {
+    &__main {
+        font-family: 'Courier Prime', sans-serif;
+        font-size: 1.3rem;
+        border: 4px solid $black;
+        border-radius: 45px;
+        padding: 5px 37px;
+    }
+
+    &__main:hover {
+        transform: translateY(5px);
+        padding: 7px 40px;
+        transform: translateY(0px);
+        transition: 0.2s;
+    }
+}
