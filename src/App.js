@@ -13,7 +13,7 @@ import Home from './pages/Home/Home';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Route path="/" exact component={Home} />
       </Router>
     </>
