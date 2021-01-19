@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function CookingMethod() {
+export default function Recipe() {
     return (
         <div className="page-container">
             

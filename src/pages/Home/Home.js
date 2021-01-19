@@ -12,12 +12,6 @@ import {
     Link
 } from "react-router-dom";
 
-// import './Home.css'
-
-
-
-function begin() {
-}
 
 function Home() {
 
@@ -39,7 +33,7 @@ function Home() {
             </div>
             <div className="logo-container">
                 <Logo />
-                <button className="btn__main" onClick={begin}> Begin </button>
+                <Link className="btn__main" to="/eggType"> Begin </Link>
             </div>
         </div>
     );
