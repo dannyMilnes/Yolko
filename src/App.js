@@ -20,9 +20,9 @@ function App() {
     <>
       <Router basename={process.env.PUBLIC_URL}>
         <Route path="/" exact component={Home} />
-        <Route path="/eggType" component={EggSelector} />
-        {/* <Route path="/eggType/CookingMethod" component={CookingMethod} />
-        <Route path="/eggType/CookingMethod/Instructions" component={Recipe} /> */}
+        <Route path="/egg-type" exact component={EggSelector} />
+        <Route path="/cooking-method" component={CookingMethod} />
+        {/* <Route path="/instructions" component={Recipe} /> */}
       </Router>
     </>
   );
