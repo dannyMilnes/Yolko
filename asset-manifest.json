@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Yolko/static/css/main.6b0df33a.chunk.css",
-    "main.js": "/Yolko/static/js/main.a01c4974.chunk.js",
-    "main.js.map": "/Yolko/static/js/main.a01c4974.chunk.js.map",
+    "main.css": "/Yolko/static/css/main.ad032173.chunk.css",
+    "main.js": "/Yolko/static/js/main.24bcfb6b.chunk.js",
+    "main.js.map": "/Yolko/static/js/main.24bcfb6b.chunk.js.map",
     "runtime-main.js": "/Yolko/static/js/runtime-main.7fd73338.js",
     "runtime-main.js.map": "/Yolko/static/js/runtime-main.7fd73338.js.map",
-    "static/js/2.a97689b0.chunk.js": "/Yolko/static/js/2.a97689b0.chunk.js",
-    "static/js/2.a97689b0.chunk.js.map": "/Yolko/static/js/2.a97689b0.chunk.js.map",
+    "static/js/2.eaf852b0.chunk.js": "/Yolko/static/js/2.eaf852b0.chunk.js",
+    "static/js/2.eaf852b0.chunk.js.map": "/Yolko/static/js/2.eaf852b0.chunk.js.map",
     "static/js/3.b8fd6d98.chunk.js": "/Yolko/static/js/3.b8fd6d98.chunk.js",
     "static/js/3.b8fd6d98.chunk.js.map": "/Yolko/static/js/3.b8fd6d98.chunk.js.map",
     "index.html": "/Yolko/index.html",
-    "static/css/main.6b0df33a.chunk.css.map": "/Yolko/static/css/main.6b0df33a.chunk.css.map",
-    "static/js/2.a97689b0.chunk.js.LICENSE.txt": "/Yolko/static/js/2.a97689b0.chunk.js.LICENSE.txt"
+    "static/css/main.ad032173.chunk.css.map": "/Yolko/static/css/main.ad032173.chunk.css.map",
+    "static/js/2.eaf852b0.chunk.js.LICENSE.txt": "/Yolko/static/js/2.eaf852b0.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/Yolko/static/media/icomoon.e4ef313f.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.7fd73338.js",
-    "static/js/2.a97689b0.chunk.js",
-    "static/css/main.6b0df33a.chunk.css",
-    "static/js/main.a01c4974.chunk.js"
+    "static/js/2.eaf852b0.chunk.js",
+    "static/css/main.ad032173.chunk.css",
+    "static/js/main.24bcfb6b.chunk.js"
   ]
 }
