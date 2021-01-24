@@ -26,7 +26,7 @@ export default function CookingMethod() {
     return (
         <div className="page-container">
             <div className="page-header">
-                <button onClick={goBackHandle} className="back-button"> Back </button>
+                <button onClick={goBackHandle}> Back </button>
                 <h2> How do you want your {displayName}?</h2>
                 
                 {style.map(styles => (

@@ -14,21 +14,16 @@ export default function EggSelector() {
     return (
         <div className="page-container">
             <div className="page-header">
-                <button onClick={goBackHandle} className="back-button"> Back </button>
-
-                {data.eggs.map((egg) => (
-                    <>
-                        <p>{egg.name}</p>
-                        <Link to={`/cooking-method/${egg.name}`}> go</Link>
-                    </>
-                ))}
-
-
+                <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
+                <div className="egg-selector-container">
+                    {data.eggs.map((egg) => (
+                        <div className="egg-card">
+                            <Link to={`/cooking-method/${egg.name}`}> go</Link>
+                            <p>{egg.name}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
-
-            
-
-            
         </div>
     )
 }

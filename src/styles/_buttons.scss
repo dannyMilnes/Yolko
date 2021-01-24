@@ -16,3 +16,16 @@
         transition: 0.2s;
     }
 }
+
+button {
+    border: none;
+}
+
+.btn-back{
+    margin: 10px 5px;
+    
+    .icon-chevron-left {
+        font-size: 50px;
+    }
+}
+
