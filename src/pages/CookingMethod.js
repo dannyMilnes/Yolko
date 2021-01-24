@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import {useHistory, useParams} from 'react-router'
+import React from 'react'
+import {useHistory} from 'react-router'
 import data from './../schema.json'
 import {Link} from 'react-router-dom'
 
@@ -30,11 +30,9 @@ export default function CookingMethod() {
                 <h2> How do you want your {displayName}?</h2>
                 
                 {style.map(styles => (
-                    
-                        <>
-                            <p>{styles.name}</p>
-                            <Link to={`/recipe/${egg.name}/${styles.name}`}> go</Link>
-
+                    <>
+                        <p>{styles.name}</p>
+                        <Link to={`/recipe/${egg.name}/${styles.name}`}> go</Link>
                     </>
                 ))}
             </div>

@@ -22,7 +22,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/egg-type" exact component={EggSelector} />
         <Route path="/cooking-method" component={CookingMethod} />
-        {/* <Route path="/instructions" component={Recipe} /> */}
+        <Route path="/recipe" component={Recipe} />
       </Router>
     </>
   );
