@@ -21,7 +21,7 @@ export default function CookingMethod() {
     const eggName = getEggFromURL();
     let egg = data.eggs.find(eggs => eggs['name'] === eggName)
     let displayName= egg.displayName
-    
+    let style = egg.style
 
     return (
         <div className="page-container">
@@ -29,16 +29,11 @@ export default function CookingMethod() {
                 <button onClick={goBackHandle} className="back-button"> Back </button>
                 <h2> How do you want your {displayName}?</h2>
                 
-                {data.eggs.map(egg => (
-                    <>
-
-                    {egg.style.map(styles => {
+                {style.map(styles => (
+                    
                         <>
                             <p>{styles.name}</p>
                             <Link to={`/recipe/${egg.name}/${styles.name}`}> go</Link>
-                        </>
-                    })}
-                    <li> this prints. the map doesnt</li>
 
                     </>
                 ))}
