@@ -10,6 +10,10 @@ export default function Recipe() {
         history.goBack();
     }
 
+    function startHandle(){
+        
+    }
+
 
     const getEggFromURL = () =>{
         const pathArray = window.location.pathname.split("/");
@@ -44,6 +48,7 @@ export default function Recipe() {
             </div>
             <div className="egg-timer">
                 {style.recipe.time}
+                <button onClick={startHandle}> Start </button>
             </div>
             <div className="instructions">
             {style.recipe.instructions}
