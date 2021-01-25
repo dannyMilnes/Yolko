@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import {useHistory, useParams} from 'react-router'
+import React from 'react'
+import {useHistory} from 'react-router'
 import data from './../schema.json'
 import {Link} from 'react-router-dom'
 
@@ -21,27 +21,18 @@ export default function CookingMethod() {
     const eggName = getEggFromURL();
     let egg = data.eggs.find(eggs => eggs['name'] === eggName)
     let displayName= egg.displayName
-    
+    let style = egg.style
 
     return (
         <div className="page-container">
             <div className="page-header">
-                <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
+            <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
                 <h2> How do you want your {displayName}?</h2>
-            </div>
-            
-            <div className="page-content">
-                {data.eggs.map(egg => (
+                
+                {style.map(styles => (
                     <>
-
-                    {egg.style.map(styles => {
-                        <>
-                            <p>{styles.name}</p>
-                            <Link to={`/recipe/${egg.name}/${styles.name}`}> go</Link>
-                        </>
-                    })}
-                    <li> this prints. the map doesnt</li>
-
+                        <p>{styles.name}</p>
+                        <Link to={`/recipe/${egg.name}/${styles.name}`}> go</Link>
                     </>
                 ))}
             </div>
