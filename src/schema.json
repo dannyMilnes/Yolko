@@ -2,7 +2,7 @@
     "eggs": [
         {
             "name": "poached",
-            "icon": "poached",
+            "icon": "poached-egg.svg",
             "displayName": "poached egg",
             "style": [
                 {
@@ -30,7 +30,7 @@
         },
         {
             "name": "fried",
-            "icon": "fried",
+            "icon": "fried-egg.svg",
             "displayName":"fried egg",
             "style":[
                 {
@@ -65,7 +65,7 @@
         },
         {
             "name": "scrambled",
-            "icon": "scrambled",
+            "icon": "scrambled-egg.svg",
             "displayName":"scrambled egg",
             "style":[
                 {
@@ -87,7 +87,7 @@
         },
         {
             "name": "boiled",
-            "icon": "boiled",
+            "icon": "boiled-egg.svg",
             "displayName": "boiled egg",
             "style": [
                 {
@@ -115,7 +115,7 @@
         },
         {
             "name": "omelette",
-            "icon": "omelette",
+            "icon": "omelette.svg",
             "displayName": "omelette",
             "style": [
                 {
@@ -129,7 +129,7 @@
         },
         {
             "name": "baked",
-            "icon": "oven",
+            "icon": "oven.svg",
             "displayName": "baked egg",
             "style": [
                 {

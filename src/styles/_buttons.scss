@@ -22,7 +22,8 @@ button {
 }
 
 .btn-back{
-    margin: 10px 5px;
+    margin-top: 25px;
+    flex-direction: column;
     
     .icon-chevron-left {
         font-size: 50px;

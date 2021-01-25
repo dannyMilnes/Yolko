@@ -1,8 +1,8 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
-export default function eggItem() { 
+export default function eggItem(props) { 
     //template for props and .map() of json to go through
     return (
         <>
