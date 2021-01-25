@@ -2,6 +2,16 @@
     background: $background;
 }
 
-.selector-container{
+h2 {
+    font-family: 'Domine', serif;
+    font-size: 2.5rem;
+    padding-right: 30px;
+}
+
+.page-header {
+    display: flex;
+}
+
+.egg-selector-container {
     display: flex;
 }

@@ -26,9 +26,11 @@ export default function CookingMethod() {
     return (
         <div className="page-container">
             <div className="page-header">
-                <button onClick={goBackHandle}> Back </button>
+                <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
                 <h2> How do you want your {displayName}?</h2>
-                
+            </div>
+            
+            <div className="page-content">
                 {data.eggs.map(egg => (
                     <>
 
