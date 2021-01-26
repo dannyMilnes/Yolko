@@ -7,8 +7,8 @@ export default function EggListCard({egg}) {
     return (
         <Link to={`/cooking-method/${egg.name}`}>
             <div className="egg-card">
-                <img src={`assets/svg/${egg.icon}`} alt={egg.name}></img>
-                <p>{egg.name}</p>
+                <img className="eggIcon" src={`assets/svg/${egg.icon}`} alt={egg.name}></img>
+                <p className="eggName">{egg.name}</p>
             </div>
         </Link>
     )

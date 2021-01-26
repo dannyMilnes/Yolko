@@ -1,0 +1,17 @@
+.egg-selector-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.egg-selector-grid-container{
+    display: grid;
+    width: 20%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px ;
+}
+
+.eggName{
+    display: flex;
+    justify-content: center;
+}
