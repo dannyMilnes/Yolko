@@ -24,7 +24,7 @@ export default function EggSelector() {
                     <div className="egg-selector-container">
                     <div className="egg-selector-grid-container">
                         {data.eggs.map((egg) => (
-                            <EggListCard egg={egg}/>
+                            <EggListCard className="egg-selector-grid-item" egg={egg}/>
                         ))}
                     </div>
                     </div>
