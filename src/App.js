@@ -14,7 +14,6 @@ import CookingMethod from './pages/CookingMethod';
 import EggSelector from './pages/EggSelector';
 import Recipe from './pages/Recipe';
 
-
 function App() {
   return (
     <>
@@ -23,7 +22,7 @@ function App() {
         <Route path="/egg-type" exact component={EggSelector} />
         <Route path="/cooking-method" component={CookingMethod} />
         <Route path="/recipe" component={Recipe} />
-      </Router>
+      </Router> 
     </>
   );
 }

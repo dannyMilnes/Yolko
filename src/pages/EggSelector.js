@@ -4,6 +4,9 @@ import {useHistory, useParams} from 'react-router'
 import {Link} from 'react-router-dom'
 import EggListCard from '../components/EggListCard'
 
+import './EggSelector.css'
+import FooterLogo from '../components/Footer Logo/FooterLogo'
+
 
 export default function EggSelector() {
     const history = useHistory();
@@ -14,16 +17,25 @@ export default function EggSelector() {
 
     return (
         <div className="page-container">
+
             <div className="page-header">
                 <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
+                <div className="header-text-container">
+                    <h2>What eggs are you cracking today?</h2>
+                </div>
             </div>
                 <div className="page-content">
                     <div className="egg-selector-container">
+                    {/* <div className="egg-selector-grid-container"> */}
                         {data.eggs.map((egg) => (
-                            <EggListCard egg={egg}/>
+                            <EggListCard className="egg-selector-grid-item" egg={egg}/>
                         ))}
+                    {/* </div> */}
                     </div>
                 </div>
+            <footer>
+                <FooterLogo />
+            </footer>
         </div>
     )
 }
