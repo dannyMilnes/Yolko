@@ -1,5 +1,5 @@
-.main-btn {
-        font-family: 'Courier Prime', sans-serif;
+.btn-main {
+        font-family: $bodyFont;
         font-size: 1.3rem;
         border: 4px solid $black;
         border-radius: 45px;
@@ -19,5 +19,16 @@ button {
     .icon-chevron-left {
         font-size: 50px;
     }
+}
+
+.btn-timer {
+        font-family: $bodyFont;
+        font-size: 1rem;
+        border: 2px solid $black;
+        border-radius: 45px;
+        padding: 3px 30px;
+        margin: 10px;
+        text-decoration: none;
+        color: black;
 }
 

@@ -10,9 +10,9 @@ import './App.scss';
 
 // Components
 import Home from './pages/Home/Home';
-import CookingMethod from './pages/CookingMethod';
-import EggSelector from './pages/EggSelector';
-import Recipe from './pages/Recipe';
+import CookingMethod from './pages/CookingMethod/CookingMethod';
+import EggSelector from './pages/EggSelector/EggSelector';
+import Recipe from './pages/Recipe/Recipe';
 
 function App() {
   return (

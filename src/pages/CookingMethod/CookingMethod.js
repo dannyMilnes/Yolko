@@ -1,9 +1,10 @@
 import React from 'react'
 import {useHistory} from 'react-router'
-import data from './../schema.json'
+import data from '../../schema.json'
 import {Link} from 'react-router-dom'
 
-import FooterLogo from '../components/Footer Logo/FooterLogo'
+import FooterLogo from '../../components/Footer Logo/FooterLogo';
+import '../CookingMethod/CookingMethod.scss';
 
 export default function CookingMethod() {
     const history = useHistory();

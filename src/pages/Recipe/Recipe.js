@@ -1,6 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import {useHistory} from 'react-router'
-import data from './../schema.json'
+import data from '../../schema.json'
+import '../Recipe/Recipe.scss'
+
+import FooterLogo from '../../components/Footer Logo/FooterLogo';
 
 export default function Recipe() {
     const history = useHistory();
@@ -63,22 +66,31 @@ export default function Recipe() {
 
 
     return (
-        <div className="page-container">
-            <div className="page-header">
-                <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
+        <>
+            <div className="page-container">
+                <div className="page-header">
+                    <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
+                </div>
+                <div className="page-content">
+                    <div className="egg-timer">
+                        <p className="countdown-text">{seconds}s</p>
+                        <div className="btn-container">
+                            <button className="btn-timer" onClick={toggleActive}>
+                                {isActive ? 'Pause' : 'Start'}
+                            </button>
+                            <button className="btn-timer" onClick={resetHandle}>
+                                Reset
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div className="instructions">
+                {style.recipe.instructions}
+                </div>
             </div>
-            <div className="egg-timer">
-                {seconds}s
-                <button onClick={toggleActive}>
-                    {isActive ? 'Pause' : 'Start'}
-                </button>
-                <button onClick={resetHandle}>
-                    Reset
-                </button>
-            </div>
-            <div className="instructions">
-            {style.recipe.instructions}
-            </div>
-        </div>
+            <footer>
+                <FooterLogo />
+            </footer>
+        </>
     )
 }

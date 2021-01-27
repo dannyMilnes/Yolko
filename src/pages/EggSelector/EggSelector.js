@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react'
-import data from '../schema.json'
+import data from '../../schema.json'
 import {useHistory, useParams} from 'react-router'
 import {Link} from 'react-router-dom'
-import EggListCard from '../components/EggListCard'
+import EggListCard from '../../components/EggListCard'
 
-import './EggSelector.css'
-import FooterLogo from '../components/Footer Logo/FooterLogo'
+import '../EggSelector/EggSelector.scss'
+import FooterLogo from '../../components/Footer Logo/FooterLogo'
 
 
 export default function EggSelector() {
