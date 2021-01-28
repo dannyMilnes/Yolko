@@ -9,6 +9,7 @@ export default function Recipe() {
     const history = useHistory();
     const [seconds,setSeconds] = useState(0)
     const [isActive, setIsActive] = useState(false)
+    const [isReady, setIsReady] = useState(false)
 
     function goBackHandle(){
         history.goBack();
@@ -33,10 +34,11 @@ export default function Recipe() {
         interval = setInterval(() => {
             setSeconds(seconds => seconds - 1);
         }, 1000);
-        }else if (isActive && seconds === 0){
-            setSeconds(eggTime)
         }else if (!isActive && seconds !== 0) {
         clearInterval(interval);
+        }
+        if (isActive && seconds <= 0){
+            setIsReady(true)
         }
         return () => clearInterval(interval);
     }, [isActive, seconds]);
@@ -73,8 +75,9 @@ export default function Recipe() {
 
 
     return (
-        <>
-            <div className="page-container">
+        <div className={`page${(isReady) ? '-alarm' : ''}`}>
+            
+            <div className={"page-container"} >
                 <div className="page-header">
                     <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
                 </div>
@@ -99,6 +102,6 @@ export default function Recipe() {
             <footer>
                 <FooterLogo />
             </footer>
-        </>
+        </div>
     )
 }

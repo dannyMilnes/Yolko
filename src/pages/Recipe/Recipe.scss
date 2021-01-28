@@ -10,3 +10,22 @@
     font-size: 3rem;
     margin: 20px;
 }
+.page-alarm{
+    animation: blinkingBackground 2s infinite;
+    -webkit-animation: blinkingBackground 2s infinite;
+}
+
+@keyframes blinkingBackground{
+    0%		{ background-color: #c01010;}
+    25%		{ background-color: #fafafa;}
+    50%		{ background-color: #c01010;}
+    75%		{ background-color: #fafafa;}
+    100%	        { background-color: #c01010;}
+}
+@-webkit-keyframes blinkingBackground{
+    0%		{ background-color: #c01010;}
+    25%		{ background-color: #fafafa;}
+    50%		{ background-color: #c01010;}
+    75%		{ background-color: #fafafa;}
+    100%	        { background-color: #c01010;}
+}
