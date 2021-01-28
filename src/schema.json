@@ -185,6 +185,15 @@
         {
             "setup":"Why was the egg late for school?",
             "punchline":"It didn't study for it's eggsam!"
+        },
+        {
+            "setup":"How did the Hen get to work so fast?",
+            "punchline":"She took the eggs-press lane!"
+        },
+        {
+            "setup":"How do chickens stay fit?",
+            "punchline":"They eggs-ercise!"
         }
+
     ]
 }
