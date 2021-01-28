@@ -1,6 +1,12 @@
-.logo {
-    svg {
+.logo svg {
         height: 220px;
         margin-bottom: 70px;
+}
+
+
+@media screen and (max-height: 760px) {
+    .logo svg {
+        height: 190px;
+        margin-bottom: 40px;
     }
 }
