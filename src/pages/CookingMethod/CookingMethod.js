@@ -37,7 +37,7 @@ export default function CookingMethod() {
                 <div className="page-content">
                     {style.map(styles => (
                         <>
-                            <Link to={`/recipe/${egg.name}/${styles.name}`}><p>{styles.name}</p></Link>
+                            <Link to={`/recipe/${egg.name}/${styles.name}`}><p>{styles.displayName}</p></Link>
                         </>
                     ))}
                 </div>
