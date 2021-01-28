@@ -33,7 +33,7 @@ function Home() {
             </div>
             <div className="logo-container">
                 <Logo />
-                <Link className="btn__main" to="/egg-type"> Begin </Link>
+                <Link className="btn-main" to="/egg-type"> Begin </Link>
             </div>
         </div>
     );

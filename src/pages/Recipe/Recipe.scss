@@ -1,0 +1,12 @@
+.egg-timer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.countdown-text {
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 20px;
+}

@@ -1,7 +1,10 @@
 import React from 'react'
 import {useHistory} from 'react-router'
-import data from './../schema.json'
+import data from '../../schema.json'
 import {Link} from 'react-router-dom'
+
+import FooterLogo from '../../components/Footer Logo/FooterLogo';
+import '../CookingMethod/CookingMethod.scss';
 
 export default function CookingMethod() {
     const history = useHistory();
@@ -27,15 +30,20 @@ export default function CookingMethod() {
         <div className="page-container">
             <div className="page-header">
             <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
-                <h2> How do you want your {displayName}?</h2>
-                
-                {style.map(styles => (
-                    <>
-                        <p>{styles.name}</p>
-                        <Link to={`/recipe/${egg.name}/${styles.name}`}> go</Link>
-                    </>
-                ))}
-            </div>
+                <div className="header-text-container">
+                    <h2> How do you want your {displayName}?</h2>
+                </div>
+            </div>  
+                <div className="page-content">
+                    {style.map(styles => (
+                        <>
+                            <Link to={`/recipe/${egg.name}/${styles.name}`}><p>{styles.name}</p></Link>
+                        </>
+                    ))}
+                </div>
+            <footer>
+                <FooterLogo />
+            </footer>
         </div>
     )
 }

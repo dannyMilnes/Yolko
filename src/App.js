@@ -10,10 +10,9 @@ import './App.scss';
 
 // Components
 import Home from './pages/Home/Home';
-import CookingMethod from './pages/CookingMethod';
-import EggSelector from './pages/EggSelector';
-import Recipe from './pages/Recipe';
-
+import CookingMethod from './pages/CookingMethod/CookingMethod';
+import EggSelector from './pages/EggSelector/EggSelector';
+import Recipe from './pages/Recipe/Recipe';
 
 function App() {
   return (
@@ -23,7 +22,7 @@ function App() {
         <Route path="/egg-type" exact component={EggSelector} />
         <Route path="/cooking-method" component={CookingMethod} />
         <Route path="/recipe" component={Recipe} />
-      </Router>
+      </Router> 
     </>
   );
 }
