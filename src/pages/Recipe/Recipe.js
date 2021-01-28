@@ -70,9 +70,7 @@ export default function Recipe() {
     const instructions = style.recipe.instructions
 
     return (
-        <div className={`page${(isReady) ? '-alarm' : ''}`}>
-            
-            <div className="page-container" >
+        <div className={`page-container${(isReady) ? '-alarm' : ''}`}>
                 <div className="page-header">
                     <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
                 </div>
@@ -89,12 +87,13 @@ export default function Recipe() {
                         </div>
                     </div>
                     <div className="instructions">
+                        Instructions:
                         <div className="instructions-list">
                         <ol>{instructions.map(instruction => <li key={instruction}> {instruction} </li>)}</ol>
                         </div>
                     </div>
                 </div>
-            </div>
+            
             <footer>
                 <FooterLogo />
             </footer>

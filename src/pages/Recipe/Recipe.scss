@@ -20,10 +20,10 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center
-
 }
 
-.page-alarm{
+.page-container-alarm{
+    height:100%;
     animation: blinkingBackground 2s infinite;
     -webkit-animation: blinkingBackground 2s infinite;
 }
