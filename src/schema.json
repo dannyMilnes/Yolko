@@ -71,14 +71,14 @@
                 {
                     "name": "soft",
                     "recipe":{
-                        "time": 600,
+                        "time": 300,
                         "instructions":[]
                     }
                 },
                 {
                     "name": "hard",
                     "recipe":{
-                        "time": 300,
+                        "time": 600,
                         "instructions":[]
                     }
                 }
