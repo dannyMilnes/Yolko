@@ -7,6 +7,7 @@
             "style": [
                 {
                     "name": "soft",
+                    "displayName": "soft",
                     "recipe":{
                         "time": 180,
                         "instructions":[]
@@ -14,6 +15,7 @@
                 },
                 {
                     "name": "medium",
+                    "displayName": "medium",
                     "recipe":{
                         "time": 240,
                         "instructions":[]
@@ -21,6 +23,7 @@
                 },
                 {
                     "name":"hard",
+                    "displayName":"hard",
                     "recipe":{
                         "time": 300,
                         "instructions":[]
@@ -74,6 +77,7 @@
             "style":[
                 {
                     "name": "soft",
+                    "displayName": "soft",
                     "recipe":{
                         "time": 300,
                         "instructions":[]
@@ -81,6 +85,7 @@
                 },
                 {
                     "name": "hard",
+                    "displayName": "hard",
                     "recipe":{
                         "time": 600,
                         "instructions":[]
@@ -96,6 +101,7 @@
             "style": [
                 {
                     "name": "soft",
+                    "displayName": "soft",
                     "recipe":{
                         "time": 300,
                         "instructions":[]
@@ -103,6 +109,7 @@
                 },
                 {
                     "name": "medium",
+                    "displayName": "medium",
                     "recipe":{
                         "time": 420,
                         "instructions":[]
@@ -110,6 +117,7 @@
                 },
                 {
                     "name":"hard",
+                    "displayName":"hard",
                     "recipe":{
                         "time": 600,
                         "instructions":[]
@@ -123,7 +131,8 @@
             "displayName": "omelette",
             "style": [
                 {
-                    "name": "??",
+                    "name": "soft",
+                    "displayName": "soft",
                     "recipe":{
                         "time": 300,
                         "instructions":[]
@@ -138,6 +147,7 @@
             "style": [
                 {
                     "name": "soft",
+                    "displayName": "soft",
                     "recipe":{
                         "time": 840,
                         "instructions":[]
@@ -145,6 +155,7 @@
                 },
                 {
                     "name": "medium",
+                    "displayName": "medium",
                     "recipe":{
                         "time": 900,
                         "instructions":[]
@@ -152,6 +163,7 @@
                 },
                 {
                     "name":"hard",
+                    "displayName":"hard",
                     "recipe":{
                         "time": 1080,
                         "instructions":[]
