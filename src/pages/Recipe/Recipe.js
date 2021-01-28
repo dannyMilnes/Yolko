@@ -62,9 +62,11 @@ export default function Recipe() {
     let egg = data.eggs.find(eggs => eggs['name'] === eggName)
     let styleArr = egg.style
     let style = styleArr.find (style => style['name'] === recipe)
+    
 
     const eggTime = style.recipe.time
-    
+    const instructions = style.recipe.instructions
+
     console.log(recipe)
     console.log(egg)
     console.log(style)
@@ -88,10 +90,11 @@ export default function Recipe() {
                             </button>
                         </div>
                     </div>
+                    <div className="instructions">
+                        <ol>{instructions.map(instruction => <li key={instruction}> {instruction} </li>)}</ol>
+                    </div>
                 </div>
-                <div className="instructions">
-                {style.recipe.instructions}
-                </div>
+                
             </div>
             <footer>
                 <FooterLogo />
