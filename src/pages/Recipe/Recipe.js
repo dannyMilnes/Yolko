@@ -24,12 +24,18 @@ export default function Recipe() {
     }
 
     useEffect(() => {
+        setSeconds(eggTime)
+    },[])
+
+    useEffect(() => {
         let interval = null;
         if (isActive) {
         interval = setInterval(() => {
             setSeconds(seconds => seconds - 1);
         }, 1000);
-        } else if (!isActive && seconds !== 0) {
+        }else if (isActive && seconds === 0){
+            setSeconds(eggTime)
+        }else if (!isActive && seconds !== 0) {
         clearInterval(interval);
         }
         return () => clearInterval(interval);
