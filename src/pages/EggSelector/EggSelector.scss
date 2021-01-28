@@ -48,7 +48,7 @@
     width: 100px;
 }
 
-.eggItem a{
+.eggItem a {
     text-decoration: none;
     color: black
 }
@@ -59,4 +59,25 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+@media screen and (max-height: 760px) {
+    .egg-card {
+        margin: 10px;
+        width: 70px;
+    }
+    .eggIcon {
+        height: 70px;
+        width: 70px;
+    }
+    .eggName {
+        margin: 5px;
+        font-size: 1rem;
+    }
+    .page-content {
+        height: 75%;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
 }

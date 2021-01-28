@@ -5,28 +5,40 @@
 .joke-container {
     position: absolute;
     top: 50%;
-    left: 50%;
-    margin: -300px;
+    left: 40%;
+    margin: -260px;
     max-width: 300px;
     background: transparent;
     transform: rotate(-13deg) translateX(50%);
     font-size: 1.3rem;
+
     p,b {
         background: none;
         font-family: 'Courier Prime', sans-serif;
         animation: pop 0.8s infinite;
     }
     @keyframes pop {
-    from {
-        transform:scale(0.97)
-    }
-    50% {
-        transform:scale(1)
-    }
-    to {
-        transform:scale(0.97)
+        from {
+            transform:scale(0.97)
+        }
+        50% {
+            transform:scale(1)
+        }
+        to {
+            transform:scale(0.97)
+        }
     }
 }
+
+
+@media screen and (max-height: 760px) {
+    .joke-container {
+        top: 50%;
+        left: 40%;
+        margin: -230px;
+        font-size: 1.2rem;
+        max-width: 270px;
+    }
 }
 
 .logo-container {
