@@ -16,7 +16,6 @@ export default function Recipe() {
 
     function toggleActive(){
         setIsActive(!isActive)
-        setSeconds(eggTime)
     }
 
     function resetHandle(){
