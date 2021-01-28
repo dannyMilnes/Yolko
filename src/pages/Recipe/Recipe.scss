@@ -10,6 +10,19 @@
     font-size: 3rem;
     margin: 20px;
 }
+
+.instructions{
+    width: 55%;
+}
+
+.instructions-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center
+
+}
+
 .page-alarm{
     animation: blinkingBackground 2s infinite;
     -webkit-animation: blinkingBackground 2s infinite;

@@ -69,15 +69,10 @@ export default function Recipe() {
     const eggTime = style.recipe.time
     const instructions = style.recipe.instructions
 
-    console.log(recipe)
-    console.log(egg)
-    console.log(style)
-
-
     return (
         <div className={`page${(isReady) ? '-alarm' : ''}`}>
             
-            <div className={"page-container"} >
+            <div className="page-container" >
                 <div className="page-header">
                     <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
                 </div>
@@ -94,10 +89,11 @@ export default function Recipe() {
                         </div>
                     </div>
                     <div className="instructions">
+                        <div className="instructions-list">
                         <ol>{instructions.map(instruction => <li key={instruction}> {instruction} </li>)}</ol>
+                        </div>
                     </div>
                 </div>
-                
             </div>
             <footer>
                 <FooterLogo />

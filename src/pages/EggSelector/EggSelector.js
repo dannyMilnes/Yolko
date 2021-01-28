@@ -1,7 +1,6 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import data from '../../schema.json'
-import {useHistory, useParams} from 'react-router'
-import {Link} from 'react-router-dom'
+import {useHistory} from 'react-router'
 import EggListCard from '../../components/EggListCard'
 
 import '../EggSelector/EggSelector.scss'

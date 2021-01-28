@@ -1,4 +1,4 @@
-* {
+.page-container, button, svg, footer {
     background: $background;
 }
 
@@ -17,9 +17,9 @@ h2 {
 }
 
 @media screen and (max-width: 375px) {
-      h2 {
-          font-size: 2.2rem;
-      }
+    h2 {
+        font-size: 2.2rem;
+    }
 }
 
 .page-header {

@@ -5,12 +5,7 @@ import data from '../../schema.json'
 // Components
 import Logo from '../../components/Logo/Logo';
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 function Home() {
