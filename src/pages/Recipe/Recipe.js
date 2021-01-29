@@ -70,7 +70,7 @@ export default function Recipe() {
     const instructions = style.recipe.instructions
 
     return (
-        <div className={`page-container${(isReady) ? '-alarm' : ''}`}>
+        <div className="page-container">
                 <div className="page-header">
                     <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
                 </div>
