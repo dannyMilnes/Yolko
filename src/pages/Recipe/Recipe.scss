@@ -13,17 +13,18 @@
 
 .instructions{
     width: 55%;
+    margin: auto
 }
 
 .instructions-list{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center
+    justify-content: center;
 }
 
-.page-container-alarm{
-    height:100%;
+.page-content-alarm{
+    height: 75%;
     animation: blinkingBackground 2s infinite;
     -webkit-animation: blinkingBackground 2s infinite;
 }

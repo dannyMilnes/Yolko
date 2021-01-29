@@ -74,7 +74,7 @@ export default function Recipe() {
                 <div className="page-header">
                     <button className="btn-back" onClick={goBackHandle}><span className="icon-chevron-left"></span></button>
                 </div>
-                <div className="page-content">
+                <div className={`page-content${(isReady) ? '-alarm' : ''}`}>
                     <div className="egg-timer">
                         <p className="countdown-text">{seconds}s</p>
                         <div className="btn-container">
