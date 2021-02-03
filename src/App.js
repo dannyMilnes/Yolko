@@ -20,6 +20,7 @@ function App() {
         <Route path="/egg-type" exact component={EggSelector} />
         <Route path="/cooking-method" component={CookingMethod} />
         <Route path="/recipe" component={Recipe} />
+        <Route path="/game" a href="src/game/index.html"/>
       </Router> 
     </>
   );

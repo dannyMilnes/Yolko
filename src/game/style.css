@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    border: 0;
+    display: flex;
+    position: fixed;
+}
+
+.game-container {
+    width: 500px;
+    height: 730px;
+    position: absolute;
+    left: 80px;
+    overflow: hidden;
+}
+
+.border-left {
+    width: 80px;
+    height: 790px;
+    position:  absolute;
+    background-color: white;
+    z-index: +2;
+}
+
+.border-right {
+    width: 80px;
+    height: 790px;
+    position: absolute;
+    background-color: white;
+    z-index: +2;
+    left: 580px;
+}
+
+.kitchen {
+    background-image: url('assets/kitchen.png');
+    width: 500px;
+    height: 80vh;
+    position: absolute;
+}
+
+.counter {
+    background-image: url('assets/counter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    z-index: +1;
+}
+
+.egg {
+    background-image: url('assets/egg.png');
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    left: 220px;
+    bottom: 100px;
+}
+
+.pot {
+    background-color: grey;
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
+
+.extractorFan {
+    background-color: grey;
+    transform: rotate(180deg);
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 10000%;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+@-webkit-keyframes slideright {
+    from {
+        background-position: 10000%;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+.counter-container {
+    height: 20vh;
+    width: 580px;
+    left: 80px;
+    position:  absolute;
+}
+
+.counter-moving {
+    position: absolute;
+    background-size: cover;
+    top: 500px;
+    height: 200px;
+    background-image: url('assets/counter.png');
+    background-repeat: repeat-x;
+    animation: slideright 100s infinite linear;
+    -webkit-animation: slideright 100s infinite linear;
+    width: 100%;
+    z-index: +1;
+}
